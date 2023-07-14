@@ -6,6 +6,7 @@ const getUser = (req, res, next) => {
     .then(user => {
       if (user) {
         req.user = user
+        next()
       } else {
         next({ status: 404, message: 'The user with the specified ID does not exist' })
       }
