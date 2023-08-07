@@ -8,7 +8,7 @@ server.use(express.json())
 
 server.use(cors())
 
-server.use('/api/users', usersRouter)
+server.use('/users', usersRouter)
 
 server.use('*', (err, req, res, next) => {
   res.status(404).json({
