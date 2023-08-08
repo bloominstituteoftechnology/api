@@ -1,10 +1,8 @@
-let id = 0
+let id, users
 
-function getId() {
-  return ++id
-}
+const getId = () => ++id
 
-const initializeUsers = () => [
+const getInitialUsers = () => [
   {
     "id": getId(),
     "name": "Ada Lovelace",
@@ -32,8 +30,13 @@ const initializeUsers = () => [
   }
 ]
 
+const reset = () => {
+  id = 0
+  users = getInitialUsers()
+}
+
 // FAKE IN-MEMORY USERS "TABLE"
-let users = initializeUsers()
+reset()
 
 const find = () => {
   // SELECT * FROM users;
@@ -68,12 +71,8 @@ const remove = id => {
   const user = users.find(user => user.id == id)
   if (!user) return Promise.resolve(null)
 
-  users = users.filter(d => d.id !== id)
+  users = users.filter(d => d.id != id)
   return Promise.resolve(user)
-}
-
-const reset = () => {
-  users = initializeUsers()
 }
 
 module.exports = {

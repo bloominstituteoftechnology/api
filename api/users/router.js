@@ -1,7 +1,7 @@
 const router = require('express').Router()
 const User = require('./model')
 
-const getUser = (req, res, next) => {
+const getUser = (req, res, next) => { // middleware
   User.findById(req.params.id)
     .then(user => {
       if (user) {
@@ -13,6 +13,33 @@ const getUser = (req, res, next) => {
     })
     .catch(next)
 }
+
+router.get('/reset', (req, res) => {
+  User.reset()
+  res.json({ message: 'API was reset successfully' })
+})
+
+router.get('/docs', (req, res) => {
+  res.send(`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>API users</title>
+</head>
+<body>
+  <h1>API users</h1>
+  <p>Available endpoints:</p>
+  <ul>
+    <li>[GET] /users</li>
+    <li>[GET] /users/:id</li>
+    <li>[POST] /users</li>
+    <li>[DELETE] /users/:id</li>
+    <li>[PUT] /users/:id</li>
+  </ul>
+  <p>Click <a href="/users/reset">HERE</a> to reset the data.</p>
+</body>
+</html>
+`)
+})
 
 router.post('/', (req, res, next) => {
   const { name, bio } = req.body
@@ -62,33 +89,6 @@ router.put('/:id', getUser, (req, res, next) => {
       })
       .catch(next)
   }
-})
-
-router.get('/reset', (req, res) => {
-  User.reset()
-  res.json({ message: 'API was reset successfully' })
-})
-
-router.get('/docs', (req, res) => {
-  res.send(`<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Using Postman</title>
-</head>
-<body>
-  <h1>Testing APIs with Postman</h1>
-  <p>Test the following endpoints:</p>
-  <ul>
-    <li>[GET] /api/users</li>
-    <li>[GET] /api/users/:id</li>
-    <li>[POST] /api/users</li>
-    <li>[DELETE] /api/users/:id</li>
-    <li>[PUT] /api/users/:id</li>
-  </ul>
-  <p>Click <a href="https://testing-apis-postman.herokuapp.com/api/reset">HERE</a> to reset the data.</p>
-</body>
-</html>
-  `)
 })
 
 module.exports = router

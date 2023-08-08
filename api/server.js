@@ -10,17 +10,19 @@ server.use(cors())
 
 server.use('/users', usersRouter)
 
-server.use('*', (err, req, res, next) => {
+server.use('*', (req, res, next) => {
   res.status(404).json({
     error: 'Page not found',
   })
 })
 
-
 server.use((err, req, res, next) => {
-  res.status(err.status || 500).json({
-    error: err.message,
-  })
+  const message = err.message || 'Unknown error happened'
+  const status = err.status || 500
+  const reason = err.reason
+  const payload = { message }
+  if (reason) payload.reason = reason
+  res.status(status).json(payload)
 })
 
 module.exports = server
