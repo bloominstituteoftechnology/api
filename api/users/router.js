@@ -16,17 +16,17 @@ const getUser = (req, res, next) => { // middleware
 
 router.get('/reset', (req, res) => {
   User.reset()
-  res.json({ message: 'API was reset successfully' })
+  res.json({ message: 'Users API was reset successfully' })
 })
 
 router.get('/docs', (req, res) => {
   res.send(`<!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>API users</title>
+  <title>Users API</title>
 </head>
 <body>
-  <h1>API users</h1>
+  <h1>Users API</h1>
   <p>Available endpoints:</p>
   <ul>
     <li>[GET] /users</li>
@@ -35,7 +35,7 @@ router.get('/docs', (req, res) => {
     <li>[DELETE] /users/:id</li>
     <li>[PUT] /users/:id</li>
   </ul>
-  <p>Click <a href="/users/reset">HERE</a> to reset the data.</p>
+  <p>Click <a href="/users/reset">HERE</a> to reset Users.</p>
 </body>
 </html>
 `)
