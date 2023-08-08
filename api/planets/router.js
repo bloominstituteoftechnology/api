@@ -24,6 +24,12 @@ router.get('/docs', (req, res) => {
 `)
 })
 
+router.get('/:id', (req, res) => {
+  const planet = Planet.getById(req.params.id)
+  if (planet) res.json(planet)
+  else res.status(404).json({ message: 'Planet not found' })
+})
+
 router.get('/', (req, res) => {
   res.json(Planet.getAll())
 })
