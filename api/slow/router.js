@@ -22,9 +22,9 @@ router.get('/docs', (req, res) => {
 `)
 })
 
-router.get('/turtle', (req, res) => {
+router.get('/bug', (req, res) => {
   res.status(400).json({
-    message: 'There are no turtles here!',
+    message: 'There are no bugs in this code!',
   })
 })
 
