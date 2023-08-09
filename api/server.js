@@ -27,6 +27,7 @@ server.get('/', (req, res) => {
   <ul>
     <li><a href="/users/docs">Users</a></li>
     <li><a href="/planets/docs">Planets</a></li>
+    <li><a href="/slow/docs">Slow</a></li>
   </ul>
 </body>
 </html>
