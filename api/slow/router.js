@@ -22,6 +22,12 @@ router.get('/docs', (req, res) => {
 `)
 })
 
+router.get('/turtle', (req, res) => {
+  res.status(400).json({
+    message: 'There are no turtles here!',
+  })
+})
+
 router.get('/:resource', (req, res) => {
   function getRandomDate() {
     var today = new Date();
