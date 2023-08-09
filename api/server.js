@@ -2,6 +2,7 @@ const express = require('express')
 const cors = require('cors')
 const usersRouter = require('./users/router')
 const planetsRouter = require('./planets/router')
+const slowRouter = require('./slow/router')
 
 const server = express()
 
@@ -11,6 +12,7 @@ server.use(cors())
 
 server.use('/users', usersRouter)
 server.use('/planets', planetsRouter)
+server.use('/slow', slowRouter)
 
 server.get('/', (req, res) => {
   res.send(`<!DOCTYPE html>
