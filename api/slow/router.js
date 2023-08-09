@@ -14,6 +14,7 @@ router.get('/docs', (req, res) => {
   <h1>Slow API</h1>
   <p>Available endpoints:</p>
   <ul>
+    <li>[GET] /bug</li>
     <li>[GET] /:anything</li>
   </ul>
   <p>Click <a href="/slow/reset">HERE</a> to reset Slow.</p>
