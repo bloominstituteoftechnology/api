@@ -25,9 +25,9 @@ router.get('/docs', (req, res) => {
 router.get('/:resource', (req, res) => {
   function getRandomDate() {
     var today = new Date();
-    var randomMilliseconds = Math.floor(Math.random() * today.getTime()); // Generate a random time in milliseconds up to now
-    var randomDate = new Date(today - randomMilliseconds); // Subtract the random milliseconds from the current time
-    return randomDate.toDateString(); // Convert the date to a human-readable string
+    var randomMilliseconds = Math.floor(Math.random() * today.getTime())
+    var randomDate = new Date(today - randomMilliseconds)
+    return randomDate.toDateString()
   }
   function getRandomInt() {
     return Math.floor(Math.random() * 499) + 501
