@@ -1,0 +1,684 @@
+[
+  [
+    {
+      "hex": "#F44336",
+      "name": "Red"
+    },
+    {
+      "hex": "#E91E63",
+      "name": "Pink"
+    },
+    {
+      "hex": "#9C27B0",
+      "name": "Purple"
+    },
+    {
+      "hex": "#673AB7",
+      "name": "Deep Purple"
+    },
+    {
+      "hex": "#3F51B5",
+      "name": "Indigo"
+    }
+  ],
+  [
+    {
+      "hex": "#1ABC9C",
+      "name": "Turquoise"
+    },
+    {
+      "hex": "#2ECC71",
+      "name": "Emerald"
+    },
+    {
+      "hex": "#3498DB",
+      "name": "Peter River"
+    },
+    {
+      "hex": "#9B59B6",
+      "name": "Amethyst"
+    },
+    {
+      "hex": "#34495E",
+      "name": "Wet Asphalt"
+    }
+  ],
+  [
+    {
+      "hex": "#B58900",
+      "name": "Yellow"
+    },
+    {
+      "hex": "#CB4B16",
+      "name": "Orange"
+    },
+    {
+      "hex": "#DC322F",
+      "name": "Red"
+    },
+    {
+      "hex": "#D33682",
+      "name": "Magenta"
+    },
+    {
+      "hex": "#6C71C4",
+      "name": "Violet"
+    }
+  ],
+  [
+    {
+      "hex": "#77DD77",
+      "name": "Pastel Green"
+    },
+    {
+      "hex": "#FFB347",
+      "name": "Pastel Orange"
+    },
+    {
+      "hex": "#FF6961",
+      "name": "Pastel Red"
+    },
+    {
+      "hex": "#AEC6CF",
+      "name": "Pastel Blue"
+    },
+    {
+      "hex": "#F49AC2",
+      "name": "Pastel Pink"
+    }
+  ],
+  [
+    {
+      "hex": "#39FF14",
+      "name": "Neon Green"
+    },
+    {
+      "hex": "#FFD700",
+      "name": "Neon Yellow"
+    },
+    {
+      "hex": "#FF00FF",
+      "name": "Neon Pink"
+    },
+    {
+      "hex": "#00FFFF",
+      "name": "Cyan"
+    },
+    {
+      "hex": "#FF4500",
+      "name": "Neon Orange"
+    }
+  ],
+  [
+    {
+      "hex": "#8B4513",
+      "name": "Saddle Brown"
+    },
+    {
+      "hex": "#CD853F",
+      "name": "Peru"
+    },
+    {
+      "hex": "#D2691E",
+      "name": "Chocolate"
+    },
+    {
+      "hex": "#8B0000",
+      "name": "Dark Red"
+    },
+    {
+      "hex": "#228B22",
+      "name": "Forest Green"
+    }
+  ],
+  [
+    {
+      "hex": "#1E90FF",
+      "name": "Dodger Blue"
+    },
+    {
+      "hex": "#00BFFF",
+      "name": "Deep Sky Blue"
+    },
+    {
+      "hex": "#4682B4",
+      "name": "Steel Blue"
+    },
+    {
+      "hex": "#4169E1",
+      "name": "Royal Blue"
+    },
+    {
+      "hex": "#000080",
+      "name": "Navy"
+    }
+  ],
+  [
+    {
+      "hex": "#FF4500",
+      "name": "OrangeRed"
+    },
+    {
+      "hex": "#FFA500",
+      "name": "Orange"
+    },
+    {
+      "hex": "#FFD700",
+      "name": "Gold"
+    },
+    {
+      "hex": "#8B4513",
+      "name": "Saddle Brown"
+    },
+    {
+      "hex": "#A0522D",
+      "name": "Sienna"
+    }
+  ],
+  [
+    {
+      "hex": "#FF69B4",
+      "name": "Hot Pink"
+    },
+    {
+      "hex": "#FFC0CB",
+      "name": "Pink"
+    },
+    {
+      "hex": "#FF1493",
+      "name": "Deep Pink"
+    },
+    {
+      "hex": "#C71585",
+      "name": "Medium Violet Red"
+    },
+    {
+      "hex": "#FFB6C1",
+      "name": "Light Pink"
+    }
+  ],
+  [
+    {
+      "hex": "#00FF00",
+      "name": "Lime"
+    },
+    {
+      "hex": "#32CD32",
+      "name": "Lime Green"
+    },
+    {
+      "hex": "#228B22",
+      "name": "Forest Green"
+    },
+    {
+      "hex": "#008000",
+      "name": "Green"
+    },
+    {
+      "hex": "#006400",
+      "name": "Dark Green"
+    }
+  ],
+  [
+    {
+      "hex": "#FF4500",
+      "name": "OrangeRed"
+    },
+    {
+      "hex": "#FFA500",
+      "name": "Orange"
+    },
+    {
+      "hex": "#FFD700",
+      "name": "Gold"
+    },
+    {
+      "hex": "#8B4513",
+      "name": "Saddle Brown"
+    },
+    {
+      "hex": "#A0522D",
+      "name": "Sienna"
+    }
+  ],
+  [
+    {
+      "hex": "#FF6347",
+      "name": "Tomato"
+    },
+    {
+      "hex": "#FF7F50",
+      "name": "Coral"
+    },
+    {
+      "hex": "#FF4500",
+      "name": "OrangeRed"
+    },
+    {
+      "hex": "#DAA520",
+      "name": "Goldenrod"
+    },
+    {
+      "hex": "#CD5C5C",
+      "name": "Indian Red"
+    }
+  ],
+  [
+    {
+      "hex": "#191970",
+      "name": "Midnight Blue"
+    },
+    {
+      "hex": "#000080",
+      "name": "Navy"
+    },
+    {
+      "hex": "#00008B",
+      "name": "Dark Blue"
+    },
+    {
+      "hex": "#4169E1",
+      "name": "Royal Blue"
+    },
+    {
+      "hex": "#4682B4",
+      "name": "Steel Blue"
+    }
+  ],
+  [
+    {
+      "hex": "#FFFF00",
+      "name": "Yellow"
+    },
+    {
+      "hex": "#FFD700",
+      "name": "Gold"
+    },
+    {
+      "hex": "#FFA500",
+      "name": "Orange"
+    },
+    {
+      "hex": "#FF8C00",
+      "name": "Dark Orange"
+    },
+    {
+      "hex": "#FF4500",
+      "name": "OrangeRed"
+    }
+  ],
+  [
+    {
+      "hex": "#FFDAB9",
+      "name": "PeachPuff"
+    },
+    {
+      "hex": "#FFE4B5",
+      "name": "Moccasin"
+    },
+    {
+      "hex": "#FAF0E6",
+      "name": "Linen"
+    },
+    {
+      "hex": "#FFEBCD",
+      "name": "Blanched Almond"
+    },
+    {
+      "hex": "#FFFAF0",
+      "name": "Floral White"
+    }
+  ],
+  [
+    {
+      "hex": "#8B0000",
+      "name": "Dark Red"
+    },
+    {
+      "hex": "#B22222",
+      "name": "Fire Brick"
+    },
+    {
+      "hex": "#DC143C",
+      "name": "Crimson"
+    },
+    {
+      "hex": "#A52A2A",
+      "name": "Brown"
+    },
+    {
+      "hex": "#8B4513",
+      "name": "Saddle Brown"
+    }
+  ],
+  [
+    {
+      "hex": "#8B4513",
+      "name": "Saddle Brown"
+    },
+    {
+      "hex": "#CD853F",
+      "name": "Peru"
+    },
+    {
+      "hex": "#D2691E",
+      "name": "Chocolate"
+    },
+    {
+      "hex": "#8B0000",
+      "name": "Dark Red"
+    },
+    {
+      "hex": "#228B22",
+      "name": "Forest Green"
+    }
+  ],
+  [
+    {
+      "hex": "#FFFFFF",
+      "name": "White"
+    },
+    {
+      "hex": "#F5F5F5",
+      "name": "Gainsboro"
+    },
+    {
+      "hex": "#DCDCDC",
+      "name": "Gainsboro Light"
+    },
+    {
+      "hex": "#A9A9A9",
+      "name": "Dark Gray"
+    },
+    {
+      "hex": "#696969",
+      "name": "Dim Gray"
+    }
+  ],
+  [
+    {
+      "hex": "#4F86F7",
+      "name": "Blue"
+    },
+    {
+      "hex": "#8EC5FC",
+      "name": "Light Blue"
+    },
+    {
+      "hex": "#C1E0FF",
+      "name": "Powder Blue"
+    },
+    {
+      "hex": "#4F86F7",
+      "name": "Blue"
+    },
+    {
+      "hex": "#2A4EBB",
+      "name": "Dark Blue"
+    }
+  ],
+  [
+    {
+      "hex": "#228B22",
+      "name": "Forest Green"
+    },
+    {
+      "hex": "#2E8B57",
+      "name": "Sea Green"
+    },
+    {
+      "hex": "#32CD32",
+      "name": "Lime Green"
+    },
+    {
+      "hex": "#3CB371",
+      "name": "Medium Sea Green"
+    },
+    {
+      "hex": "#90EE90",
+      "name": "Light Green"
+    }
+  ],
+  [
+    {
+      "hex": "#FF4500",
+      "name": "OrangeRed"
+    },
+    {
+      "hex": "#FFA500",
+      "name": "Orange"
+    },
+    {
+      "hex": "#FFD700",
+      "name": "Gold"
+    },
+    {
+      "hex": "#8B4513",
+      "name": "Saddle Brown"
+    },
+    {
+      "hex": "#A0522D",
+      "name": "Sienna"
+    }
+  ],
+  [
+    {
+      "hex": "#77DD77",
+      "name": "Pastel Green"
+    },
+    {
+      "hex": "#FFB347",
+      "name": "Pastel Orange"
+    },
+    {
+      "hex": "#FF6961",
+      "name": "Pastel Red"
+    },
+    {
+      "hex": "#AEC6CF",
+      "name": "Pastel Blue"
+    },
+    {
+      "hex": "#F49AC2",
+      "name": "Pastel Pink"
+    }
+  ],
+  [
+    {
+      "hex": "#FF0000",
+      "name": "Red"
+    },
+    {
+      "hex": "#FF6600",
+      "name": "Orange"
+    },
+    {
+      "hex": "#FFCC00",
+      "name": "Yellow"
+    },
+    {
+      "hex": "#33CC33",
+      "name": "Green"
+    },
+    {
+      "hex": "#3366FF",
+      "name": "Blue"
+    }
+  ],
+  [
+    {
+      "hex": "#FFDDC1",
+      "name": "Peach"
+    },
+    {
+      "hex": "#FFB7B2",
+      "name": "Pink"
+    },
+    {
+      "hex": "#FF9AA2",
+      "name": "Salmon"
+    },
+    {
+      "hex": "#E6A8D7",
+      "name": "Lavender"
+    },
+    {
+      "hex": "#B5A8B0",
+      "name": "Lilac"
+    }
+  ],
+  [
+    {
+      "hex": "#00CED1",
+      "name": "Dark Turquoise"
+    },
+    {
+      "hex": "#87CEEB",
+      "name": "Sky Blue"
+    },
+    {
+      "hex": "#1E90FF",
+      "name": "Dodger Blue"
+    },
+    {
+      "hex": "#4169E1",
+      "name": "Royal Blue"
+    },
+    {
+      "hex": "#000080",
+      "name": "Navy"
+    }
+  ],
+  [
+    {
+      "hex": "#F8F9FA",
+      "name": "Light Gray"
+    },
+    {
+      "hex": "#CED4DA",
+      "name": "Gray"
+    },
+    {
+      "hex": "#AAB7B8",
+      "name": "Slate Gray"
+    },
+    {
+      "hex": "#808B96",
+      "name": "Gray Blue"
+    },
+    {
+      "hex": "#495057",
+      "name": "Dark Gray"
+    }
+  ],
+  [
+    {
+      "hex": "#FF5733",
+      "name": "Orange"
+    },
+    {
+      "hex": "#C70039",
+      "name": "Crimson"
+    },
+    {
+      "hex": "#900C3F",
+      "name": "Deep Red"
+    },
+    {
+      "hex": "#581845",
+      "name": "Plum"
+    },
+    {
+      "hex": "#14213D",
+      "name": "Navy Blue"
+    }
+  ],
+  [
+    {
+      "hex": "#FFFFFF",
+      "name": "White"
+    },
+    {
+      "hex": "#F5F5F5",
+      "name": "Gainsboro"
+    },
+    {
+      "hex": "#DCDCDC",
+      "name": "Gainsboro Light"
+    },
+    {
+      "hex": "#A9A9A9",
+      "name": "Dark Gray"
+    },
+    {
+      "hex": "#696969",
+      "name": "Dim Gray"
+    }
+  ],
+  [
+    {
+      "hex": "#87CEEB",
+      "name": "Sky Blue"
+    },
+    {
+      "hex": "#4682B4",
+      "name": "Steel Blue"
+    },
+    {
+      "hex": "#4169E1",
+      "name": "Royal Blue"
+    },
+    {
+      "hex": "#0000CD",
+      "name": "Medium Blue"
+    },
+    {
+      "hex": "#000080",
+      "name": "Navy"
+    }
+  ],
+  [
+    {
+      "hex": "#FF1493",
+      "name": "Deep Pink"
+    },
+    {
+      "hex": "#FF69B4",
+      "name": "Hot Pink"
+    },
+    {
+      "hex": "#FFD700",
+      "name": "Gold"
+    },
+    {
+      "hex": "#FFA500",
+      "name": "Orange"
+    },
+    {
+      "hex": "#FF6347",
+      "name": "Tomato"
+    }
+  ],
+  [
+    {
+      "hex": "#FF4500",
+      "name": "OrangeRed"
+    },
+    {
+      "hex": "#FFA500",
+      "name": "Orange"
+    },
+    {
+      "hex": "#FFD700",
+      "name": "Gold"
+    },
+    {
+      "hex": "#FF6347",
+      "name": "Tomato"
+    },
+    {
+      "hex": "#FA8072",
+      "name": "Salmon"
+    }
+  ]
+]

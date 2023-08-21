@@ -3,6 +3,7 @@ const cors = require('cors')
 const usersRouter = require('./users/router')
 const planetsRouter = require('./planets/router')
 const slowRouter = require('./slow/router')
+const palettesRouter = require('./palettes/router')
 
 const server = express()
 
@@ -13,6 +14,7 @@ server.use(cors())
 server.use('/users', usersRouter)
 server.use('/planets', planetsRouter)
 server.use('/slow', slowRouter)
+server.use('/palettes', palettesRouter)
 
 server.get('/', (req, res) => {
   res.send(`<!DOCTYPE html>
@@ -28,6 +30,7 @@ server.get('/', (req, res) => {
     <li><a href="/users/docs">Users</a></li>
     <li><a href="/planets/docs">Planets</a></li>
     <li><a href="/slow/docs">Slow</a></li>
+    <li><a href="/palettes/docs">Palettes</a></li>
   </ul>
 </body>
 </html>
