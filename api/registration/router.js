@@ -26,7 +26,7 @@ router.get('/docs', (req, res) => {
 
 router.post('/', Registration.validate, (req, res) => {
   res.status(201).json({
-    message: 'Registration Successful! Welcome!',
+    message: `Registration Successful! Welcome, ${req.body.username}!`,
     data: req.body,
   })
 })
