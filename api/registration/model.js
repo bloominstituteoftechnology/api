@@ -26,14 +26,14 @@ const userSchema = yup.object().shape({
     .required(e.usernameRequired)
     .min(3, e.usernameMin).max(20, e.usernameMax),
   favLanguage: yup.string().typeError(e.favLanguageType)
-    .oneOf(['javascript', 'rust'], e.favLanguageOptions)
-    .required(e.favLanguageRequired).trim(),
+    .required(e.favLanguageRequired).trim()
+    .oneOf(['javascript', 'rust'], e.favLanguageOptions),
   favFood: yup.string().typeError(e.favFoodType)
-    .oneOf(['broccoli', 'spaghetti', 'pizza'], e.favFoodOptions)
-    .required(e.favFoodRequired).trim(),
+    .required(e.favFoodRequired).trim()
+    .oneOf(['broccoli', 'spaghetti', 'pizza'], e.favFoodOptions),
   agreement: yup.boolean().typeError(e.agreementType)
-    .oneOf([true], e.agreementOptions)
-    .required(e.agreementRequired),
+    .required(e.agreementRequired)
+    .oneOf([true], e.agreementOptions),
 })
 
 const validateUser = async data => {
