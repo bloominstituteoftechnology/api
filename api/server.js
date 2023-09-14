@@ -36,7 +36,7 @@ server.get('/', (req, res) => {
     <li><a href="/slow/docs">Slow</a></li>
     <li><a href="/palettes/docs">Palettes</a></li>
     <li><a href="/registration/docs">Registration</a></li>
-    <li><a href="/pizza/docs">Registration</a></li>
+    <li><a href="/pizza/docs">Pizza</a></li>
   </ul>
 </body>
 </html>
