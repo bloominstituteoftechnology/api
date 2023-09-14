@@ -6,6 +6,7 @@ const slowRouter = require('./slow/router')
 const palettesRouter = require('./palettes/router')
 const registrationRouter = require('./registration/router')
 const pizzaRouter = require('./pizza/router')
+const crankyLogin = require('./cranky_login/router')
 
 const server = express()
 
@@ -19,6 +20,7 @@ server.use('/slow', slowRouter)
 server.use('/palettes', palettesRouter)
 server.use('/registration', registrationRouter)
 server.use('/pizza', pizzaRouter)
+server.use('/cranky_login', crankyLogin)
 
 server.get('/', (req, res) => {
   res.send(`<!DOCTYPE html>
@@ -37,6 +39,7 @@ server.get('/', (req, res) => {
     <li><a href="/palettes/docs">Palettes</a></li>
     <li><a href="/registration/docs">Registration</a></li>
     <li><a href="/pizza/docs">Pizza</a></li>
+    <li><a href="/cranky_login/docs">Cranky Login</a></li>
   </ul>
 </body>
 </html>
