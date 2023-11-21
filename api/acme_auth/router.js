@@ -11,8 +11,8 @@ router.get('/docs', (req, res) => {
   <h1>AcmeAuth API</h1>
   <p>Available endpoints:</p>
   <ul>
-    <li>[POST] /login</li>
-    <li>[GET] /is_authed</li>
+    <li>[POST] /acme/login</li>
+    <li>[GET] /acme/is_authed</li>
   </ul>
 </body>
 </html>
