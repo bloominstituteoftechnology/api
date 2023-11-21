@@ -31,7 +31,7 @@ function generateToken(username) {
   return jwt.sign(
     { subject: username },
     'shh, this is very secret',
-    { expiresIn: '1minute' },
+    { expiresIn: '2minutes' },
   )
 }
 
