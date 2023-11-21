@@ -43,6 +43,7 @@ server.get('/', (req, res) => {
     <li><a href="/registration/docs">Registration</a></li>
     <li><a href="/pizza/docs">Pizza</a></li>
     <li><a href="/cranky_login/docs">Cranky Login</a></li>
+    <li><a href="/acme_auth/docs">Acme Auth</a></li>
   </ul>
 </body>
 </html>
