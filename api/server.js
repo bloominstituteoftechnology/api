@@ -1,12 +1,14 @@
 const express = require('express')
 const cors = require('cors')
+
 const usersRouter = require('./users/router')
 const planetsRouter = require('./planets/router')
 const slowRouter = require('./slow/router')
 const palettesRouter = require('./palettes/router')
 const registrationRouter = require('./registration/router')
 const pizzaRouter = require('./pizza/router')
-const crankyLogin = require('./cranky_login/router')
+const crankyLoginRouter = require('./cranky_login/router')
+const acmeAuthRouter = require('./acme_auth/router')
 
 const server = express()
 
@@ -20,7 +22,8 @@ server.use('/slow', slowRouter)
 server.use('/palettes', palettesRouter)
 server.use('/registration', registrationRouter)
 server.use('/pizza', pizzaRouter)
-server.use('/cranky_login', crankyLogin)
+server.use('/cranky_login', crankyLoginRouter)
+server.use('/acme', acmeAuthRouter)
 
 server.get('/', (req, res) => {
   res.send(`<!DOCTYPE html>
