@@ -8,7 +8,7 @@ router.post('/report', (req, res, next) => {
 })
 
 router.get('/', (req, res) => {
-  res.json('up')
+  res.json(data)
 })
 
 module.exports = router
