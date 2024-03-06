@@ -1,6 +1,6 @@
 const router = require('express').Router()
 
-const data = []
+const data = [] // in-memory db
 
 router.post('/report', (req, res, next) => {
   data.push(req.body)
