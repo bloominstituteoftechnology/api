@@ -11,4 +11,4 @@ router.get('/', (req, res) => {
   res.json('up')
 })
 
-export default router
+module.exports = router
