@@ -4,7 +4,7 @@ const data = []
 
 router.post('/report', (req, res, next) => {
   data.push(req.body)
-  res.json('ok')
+  res.json(req.body)
 })
 
 router.get('/', (req, res) => {
