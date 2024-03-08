@@ -9,7 +9,7 @@ const registrationRouter = require('./registration/router')
 const pizzaRouter = require('./pizza/router')
 const crankyLoginRouter = require('./cranky_login/router')
 const acmeAuthRouter = require('./acme_auth/router')
-const gradesRouter = require('./grades_report/router')
+// const gradesRouter = require('./grades_report/router') // redis is crashing
 
 const server = express()
 
@@ -25,7 +25,7 @@ server.use('/registration', registrationRouter)
 server.use('/pizza', pizzaRouter)
 server.use('/cranky_login', crankyLoginRouter)
 server.use('/acme', acmeAuthRouter)
-server.use('/grades', gradesRouter)
+// server.use('/grades', gradesRouter)
 
 server.get('/', (req, res) => {
   res.send(`<!DOCTYPE html>
