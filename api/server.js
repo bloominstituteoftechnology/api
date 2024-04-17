@@ -9,6 +9,7 @@ const registrationRouter = require('./registration/router')
 const pizzaRouter = require('./pizza/router')
 const crankyLoginRouter = require('./cranky_login/router')
 const acmeAuthRouter = require('./acme_auth/router')
+const dogsRouter = require('./dogs/router')
 // const gradesRouter = require('./grades_report/router') // redis is crashing
 
 const server = express()
@@ -25,6 +26,7 @@ server.use('/registration', registrationRouter)
 server.use('/pizza', pizzaRouter)
 server.use('/cranky_login', crankyLoginRouter)
 server.use('/acme', acmeAuthRouter)
+server.use('/dogs', dogsRouter)
 // server.use('/grades', gradesRouter)
 
 server.get('/', (req, res) => {
@@ -46,6 +48,7 @@ server.get('/', (req, res) => {
     <li><a href="/pizza/docs">Pizza</a></li>
     <li><a href="/cranky_login/docs">Cranky Login</a></li>
     <li><a href="/acme/docs">Acme Auth</a></li>
+    <li><a href="/dogs/docs">Dogs</a></li>
   </ul>
 </body>
 </html>
